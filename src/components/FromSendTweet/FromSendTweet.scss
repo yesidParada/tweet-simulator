@@ -1,0 +1,22 @@
+.FromSendTweet{
+  background: #ffffff;
+  border: 2px solid #00acee;
+  padding: 20px;
+  width: 600px;
+
+  &Title{
+    margin: 0 !important;
+  }
+  &Form{
+    .MuiFormControl-root{
+      width: 100%;
+    }
+
+    &Name{
+      width: 50% !important;
+    }
+    &TextArea{
+      width: 100%;
+    }
+  }
+}
